@@ -1,7 +1,13 @@
 package com.driver.shared.dto;
 
-import java.io.Serializable;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderDto{
 
 	private long id;
